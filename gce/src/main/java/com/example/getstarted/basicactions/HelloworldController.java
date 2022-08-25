@@ -27,7 +27,7 @@ public class HelloworldController extends HttpServlet {
 
   @Override
   public void doGet(HttpServletRequest req, HttpServletResponse resp) throws IOException {
-    resp.getWriter().write("Hello world - GCE! SCP");
+    resp.getWriter().write("Hello world - GCE! It was deployed by SSH");
     resp.setStatus(HttpServletResponse.SC_OK);
   }
 }
